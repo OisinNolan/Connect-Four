@@ -1,33 +1,3 @@
-/* SELF ASSESSMENT
-
-Connect4Game class (35 marks) 35
-My class creates references to the Connect 4 Grid and two Connect 4 Players. It asks the user whether he/she would like to play/quit inside a loop. If the user decides to play then: 1. Connect4Grid2DArray is created using the Connect4Grid interface, 2. the two players are initialised - must specify the type to be ConnectPlayer, and 3. the game starts. In the game, I ask the user where he/she would like to drop the piece. I perform checks by calling methods in the Connect4Grid interface. Finally a check is performed to determine a win. 
-Comment: yes, game works and is replayable
-
-Connect4Grid interface (10 marks) 10
-I define all 7 methods within this interface.
-Comment: yes, all methods defined
-
-Connect4Grid2DArray class (25 marks) 25
-My class implements the Connect4Grid interface. It creates a grid using a 2D array Implementation of the method to check whether the column to drop the piece is valid. It provides as implementation of the method to check whether the column to drop the piece is full. It provides as implementation of the method to drop the piece.  It provides as implementation of the method to check whether there is a win.
-Comment: yes, all methods work as so, using a 2D array as the grid and nested for loops to scan for the various methods.
-
-ConnectPlayer abstract class (10 marks) 10
-My class provides at lest one non-abstract method and at least one abstract method. 
-Comment: yes, provides abstract 'choose column' method which is overridden in the AI class
-
-C4HumanPlayer class (10 marks) 10
-My class extends the ConnectPlayer claas and overrides the abstract method(s). It provides the Human player functionality.
-Comment: yes, extends ConnectPlayer and provides human functionality.
-
-C4RandomAIPlayer class (10 marks) 10
-My class extends the ConnectPlayer claas and overrides the abstract method(s). It provides AI player functionality. 
-Comment: yes, overrides chooseColumn
-
-Total Marks out of 100: 100
-
-*/
-
 import java.util.Random;
 import java.util.Scanner;
 
